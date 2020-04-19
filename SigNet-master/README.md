@@ -15,7 +15,7 @@ SigNet is a Siamese Convolutional Neural Network modeled to verify original and 
 |	|	|-- forgeries_1_2.jpg
 |	|	|-- ...(all forged 24 signs of 24 signers i.e. 24x24 = 576 images)
 ```
-3. The [generate_dataset.py](https://github.com/AtharvaKalsekar/SigNet/blob/master/generate_dataset.py) creates a pandas dataframe and the train and validation datasets are splitted here.
+3. The [generate_dataset.py](https://github.com/Amanymous/SigNet/blob/master/generate_dataset.py) creates a pandas dataframe and the train and validation datasets are splitted here.
 
 
 #### Training
@@ -36,6 +36,6 @@ def  contrastive_loss(y_true, y_pred):
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 | Original | Genuine | Forged |
-|<img src="https://github.com/AtharvaKalsekar/SigNet/blob/master/Test%20Images/org.png"> |  <img src="https://github.com/AtharvaKalsekar/SigNet/blob/master/Test%20Images/org_1.png">  |<img src="https://github.com/AtharvaKalsekar/SigNet/blob/master/Test%20Images/forg.png"> |
+|<img src="https://github.com/Amanymous/SigNet/blob/master/Test%20Images/org.png"> |  <img src="https://github.com/Amanymous/SigNet/blob/master/Test%20Images/org_1.png">  |<img src="https://github.com/Amanymous/SigNet/blob/master/Test%20Images/forg.png"> |
 Distance (compared to original) as output by model : | 0.12116826 | 1.43014560 |
 Predicted Label:| 1 (similar)  | 0 (forged) |
