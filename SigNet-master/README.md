@@ -19,7 +19,7 @@ SigNet is a Siamese Convolutional Neural Network modeled to verify original and 
 
 
 #### Training
-The model is trained on **colab** using both keras and tensorflow which can be found here [signet_keras.ipynb](https://github.com/AtharvaKalsekar/SigNet/blob/master/signet_keras.ipynb) and [signet_tf.ipynb](https://github.com/AtharvaKalsekar/SigNet/blob/master/signet_tf.ipynb) respectively. The train accuracy of the model so far is **81.42%**. Better results can be achieved by augmenting the dataset with more examples.
+The model is trained on **colab** using both keras and tensorflow which can be found here [signet_keras.ipynb](https://github.com/Amanymous/SigNet/blob/master/signet_keras.ipynb) and [signet_tf.ipynb](https://github.com/Amanymous/SigNet/blob/master/signet_tf.ipynb) respectively. The train accuracy of the model so far is **81.42%**. Better results can be achieved by augmenting the dataset with more examples.
 
 #### Loss Function
 Contrastive loss was used for the training purpose alongside RMSprop optimizer.
